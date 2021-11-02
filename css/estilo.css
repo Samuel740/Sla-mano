@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+html, body{
+	
+	height: 100%;
+}
+
+body{
+
+	background-color: black;
+	
+}
+
+.topo{
+
+	width: 100%;
+	height: 200px;
+	background-color: brown;
+	min-height: 250px;
+	min-width: 100%;
+}
+
+.topo > h1{
+
+	font-size: 100px;
+	font-family: Courier New;
+	letter-spacing: 15px;
+	text-align: center;
+
+}
+
+.menu{
+
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+
+
+}
+
+.menu a{
+	text-decoration: none;
+	font-family: Arial;
+	margin-left: 20px;
+	color: black;
+}
+
+.menu a:hover{
+
+	color: white;
+	border-bottom:  5px solid black; 
+}
+
+
+
+.item1{
+
+	background-color: brown;
+	display: inline-block;
+	margin-left: -4px;
+	vertical-align: top;
+	margin: 10px;
+	width: 300px;
+	height: 350px;
+
+}
+
+.item1 > img{
+
+	width: 200px;
+	padding: 5px;
+	border: 2px solid black;
+	
+}
+
+.item1, h3{
+
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	color: white;
+	text-align: center;
+
+
+
+}
+
+.item1, h3 a{
+
+	font-size: 25px;
+	padding: 3px;
+	color: black;
+	font-family: Arial;
+	text-decoration: none;
+	text-align: center;
+	border: 3px solid black;
+
+
+}
+
+.comp{
+
+	margin-top: 10px;
+}
+
+.item1, h3 a:hover{
+
+	border-bottom: 3px black solid;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+.rodape{
+
+	margin-top: 20px;
+	background-color: brown;
+	width: 100%;
+	height: 300px;
+	
+
+}
+
+.rodape > h4{
+
+	font-family: Courier New;
+	font-size: 20px;
+
+}
+.rd > a{
+
+	margin: 30px;
+	width: 30px;
+	font-size: 20px;
+
+	
+}
+
+.rd{
+
+	display: inline-block;
+	margin-left: -4px;
+}
